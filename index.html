@@ -1,215 +1,81 @@
 <!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atul Prakash | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <select id="university_id_element" class="form-select is-invalid" name="ProgrammeUniversityForm[university_id]" aria-required="true" aria-invalid="true">
-<option value="">--Select--</option>
-<option value="207">AKS UNIVERSITY</option>
-<option value="1">ALIGARH MUSLIM UNIVERSITY</option>
-<option value="185">Amity University Chhattisgarh</option>
-<option value="181">Amity University Gurugram</option>
-<option value="183">Amity University Gwalior</option>
-<option value="184">Amity University Jaipur</option>
-<option value="192">AMITY UNIVERSITY JHARKHAND</option>
-<option value="213">Amity University Kolkata</option>
-<option value="182">Amity University Lucknow</option>
-<option value="186">Amity University Mumbai</option>
-<option value="204">AMITY UNIVERSITY NOIDA</option>
-<option value="209">AMITY UNIVERSITY PATNA</option>
-<option value="211">AMITY UNIVERSITY PUNJAB</option>
-<option value="123">Apeejay Stya University</option>
-<option value="85">APEX UNIVERSITY</option>
-<option value="219">ARKA JAIN University</option>
-<option value="95">ARUNACHAL UNIVERSITY OF STUDIES</option>
-<option value="116">ASBM University</option>
-<option value="2">ASSAM UNIVERSITY</option>
-<option value="64">AVINASHILINGAM INSTITUTE FOR HOME SCIENCE AND HIGHER EDUCATION FOR WOMEN</option>
-<option value="196">BABA GHULAM SHAH BADSHAH UNIVERSITY</option>
-<option value="3">BABASAHEB BHIMRAO AMBEDKAR UNIVERSITY</option>
-<option value="125">Bahra University (Shimla Hills)</option>
-<option value="4">BANARAS HINDU UNIVERSITY</option>
-<option value="96">BARKATULLAH UNIVERSITY</option>
-<option value="208">BHATTADEV UNIVERSITY</option>
-<option value="156">Binod Bihari Mahto Koyalanchal University, Dhanbad</option>
-<option value="63">BML MUNJAL UNIVERSITY</option>
-<option value="214">CAPITAL UNIVERSITY, KODERMA, JHARKHAND</option>
-<option value="90">CAREER POINT UNIVERSITY</option>
-<option value="61">CENTRAL SANSKRIT UNIVERSITY</option>
-<option value="5">CENTRAL TRIBAL UNIVERSITY OF ANDHRA PRADESH</option>
-<option value="6">CENTRAL UNIVERSITY OF ANDHRA PRADESH</option>
-<option value="8">CENTRAL UNIVERSITY OF GUJARAT</option>
-<option value="9">CENTRAL UNIVERSITY OF HARYANA</option>
-<option value="10">CENTRAL UNIVERSITY OF HIMACHAL PRADESH</option>
-<option value="11">CENTRAL UNIVERSITY OF JAMMU</option>
-<option value="12">CENTRAL UNIVERSITY OF JHARKHAND</option>
-<option value="13">CENTRAL UNIVERSITY OF KARNATAKA</option>
-<option value="14">CENTRAL UNIVERSITY OF KASHMIR</option>
-<option value="15">CENTRAL UNIVERSITY OF KERALA</option>
-<option value="16">CENTRAL UNIVERSITY OF ODISHA</option>
-<option value="18">CENTRAL UNIVERSITY OF RAJASTHAN</option>
-<option value="7">CENTRAL UNIVERSITY OF SOUTH BIHAR</option>
-<option value="19">CENTRAL UNIVERSITY OF TAMIL NADU</option>
-<option value="141">Chanakya University</option>
-<option value="89">CHHATRAPATI SHIVAJI MAHARAJ UNIVERSITY</option>
-<option value="94">CHINMAYA VISHWAVIDYAPEETH</option>
-<option value="157">Chitkara University, Himachal Pradesh</option>
-<option value="151">Chitkara University, Punjab</option>
-<option value="107">Cluster University of Jammu</option>
-<option value="130">Cluster University of Srinagar</option>
-<option value="146">COTTON UNIVERSTIY</option>
-<option value="144">Datta Meghe Institute of Higher Education and Research</option>
-<option value="195">DAV UNIVERSITY JALANDHAR</option>
-<option value="86">DAYALBAGH EDUCATIONAL INSTITUTE</option>
-<option value="109">DELHI SKILL AND ENTREPRENEURSHIP UNIVERSITY</option>
-<option value="73">DEVI AHILYA VISHWAVIDYALAYA</option>
-<option value="54">DR. A.P.J. ABDUL KALAM TECHNICAL UNIVERSITY</option>
-<option value="56">DR. B.R. AMBEDKAR SCHOOL OF ECONOMICS UNIVERSITY</option>
-<option value="62">DR. B.R. AMBEDKAR UNIVERSITY DELHI</option>
-<option value="60">DR. HARISINGH GOUR VISHWAVIDYALAYA</option>
-<option value="202">Dr. SHYAMA PRASAD MUKHERJEE UNIVERSITY</option>
-<option value="106">FOOTWEAR DESIGN AND DEVELOPMENT INSTITUTE</option>
-<option value="124">G D Goenka University, Gurugram, NCR</option>
-<option value="72">GALGOTIAS UNIVERSITY</option>
-<option value="175">Gandhi Institute of Technology And Management - Bengaluru, Karnataka (Off Campus)</option>
-<option value="176">Gandhi Institute of Technology And Management - Hyderabad, Telangana (Off Campus)</option>
-<option value="177">Gandhi Institute of Technology And Management - Visakhapatnam, Andhra Pradesh (Main Campus)</option>
-<option value="114">GEETA UNIVERSITY, PANIPAT, DELHI-NCR, HARYANA</option>
-<option value="111">GLA University Mathura</option>
-<option value="129">GOVT. COLLEGE FOR WOMEN, PARADE GROUND, JAMMU</option>
-<option value="180">Govt. Degree College (Autonomous), Baramulla</option>
-<option value="201">GRAPHIC ERA HILL UNIVERSITY,  HALDWANI	</option>
-<option value="200">GRAPHIC ERA HILL UNIVERSITY, BHIMTAL</option>
-<option value="199">GRAPHIC ERA HILL UNIVERSITY, DEHRADUN			</option>
-<option value="197">GRAPHIC ERA UNIVERSITY</option>
-<option value="76">GUJARAT VIDYAPITH</option>
-<option value="21">GURU GHASIDAS VISHWAVIDYALAYA</option>
-<option value="117">Guru Gobind Singh Indraprastha University</option>
-<option value="74">GURUKULA KANGRI</option>
-<option value="138">Harcourt Butler Technical University, Kanpur</option>
-<option value="22">HEMVATI NANDAN BAHUGUNA GARHWAL UNIVERSITY</option>
-<option value="170">Hi-Tech Institute of Engineering &amp; Technology</option>
-<option value="113">Himalayan University Itanagar</option>
-<option value="163">Hindustan Institute of Technology and Science</option>
-<option value="79">IES UNIVERSITY</option>
-<option value="137">IILM University, Greater Noida</option>
-<option value="135">IILM University, Gurugram</option>
-<option value="66">IIMT UNIVERSITY</option>
-<option value="179">IMS Unison University</option>
-<option value="160">Indian Council of Agricultural Research (ICAR)</option>
-<option value="216">Indian Culinary Institute</option>
-<option value="174">Indian Institute of Tourism &amp; Travel Management</option>
-<option value="112">Indira Gandhi Delhi Technical University for Women</option>
-<option value="24">INDIRA GANDHI NATIONAL TRIBAL UNIVERSITY</option>
-<option value="120">Invertis University</option>
-<option value="139">Islamia College of Science and Commerce</option>
-<option value="189">Islamic University of Science and Technology, Kashmir</option>
-<option value="140">ITM UNIVERSITY GWALIOR</option>
-<option value="70">JAGAN NATH UNIVERSITY BAHADURGARH HARYANA</option>
-<option value="53">JAGANNATH UNIVERSITY, JAIPUR (RAJASTHAN)</option>
-<option value="97">JAMIA HAMDARD</option>
-<option value="25">JAMIA MILLIA ISLAMIA</option>
-<option value="166">Jamshedpur Women's University</option>
-<option value="26">JAWAHARLAL NEHRU UNIVERSITY</option>
-<option value="153">Jaypee Institute of Information Technology</option>
-<option value="69">JAYPEE UNIVERSITY OF INFORMATION TECHNOLOGY</option>
-<option value="188">Jharkhand Rai University</option>
-<option value="92">JHARKHAND RAKSHA SHAKTI UNIVERSITY</option>
-<option value="164">JOY UNIVERSITY</option>
-<option value="190">K. K. Modi University</option>
-<option value="88">K.R. MANGALAM UNIVERSITY</option>
-<option value="220">KALASALINGAM ACADEMY OF RESEARCH AND EDUCATION				</option>
-<option value="155">Karnavati University</option>
-<option value="162">KHWAJA MOINUDDIN CHISHTI LANGUAGE UNIVERSITY</option>
-<option value="173">Kolhan University</option>
-<option value="149">Koneru Lakshmaiah Education Foundation (Deemed to be University)</option>
-<option value="81">LAKSHMIBAI NATIONAL INSTITUTE OF PHYSICAL EDUCATION</option>
-<option value="178">Lingaya's Vidyapeeth</option>
-<option value="172">Lohit's Academy College of Commerce</option>
-<option value="121">Lovely Professional University</option>
-<option value="57">MADAN MOHAN MALAVIYA UNIVERSITY OF TECHNOLOGY</option>
-<option value="27">MAHATMA GANDHI ANTARRASHTRIYA HINDI VISHWAVIDYALAYA</option>
-<option value="43">MAHATMA GANDHI CENTRAL UNIVERSITY</option>
-<option value="55">MAHATMA JYOTIBA PHULE ROHILKHAND UNIVERSITY</option>
-<option value="99">MANAV RACHNA INTERNATIONAL INSTITUTE OF RESEARCH AND STUDIES</option>
-<option value="98">MANAV RACHNA UNIVERSITY</option>
-<option value="126">Mangalayatan University Jabalpur</option>
-<option value="115">Mangalayatan University, Aligarh</option>
-<option value="28">MANIPUR UNIVERSITY</option>
-<option value="29">MAULANA AZAD NATIONAL URDU UNIVERSITY</option>
-<option value="71">MEWAR UNIVERSITY</option>
-<option value="30">MIZORAM UNIVERSITY</option>
-<option value="103">Mody University of Science and Technology</option>
-<option value="161">MVN University</option>
-<option value="31">NAGALAND UNIVERSITY</option>
-<option value="46">NATIONAL SANSKRIT UNIVERSITY</option>
-<option value="212">Nehru Gram Bharati</option>
-<option value="215">Netaji Subhas University</option>
-<option value="100">NICMAR UNIVERSITY, PUNE</option>
-<option value="84">NIIT UNIVERSITY</option>
-<option value="187">Nilamber Pitamber University</option>
-<option value="102">NIRWAN UNIVERSITY, JAIPUR</option>
-<option value="136">Noida International University</option>
-<option value="32">NORTH-EASTERN HILL UNIVERSITY</option>
-<option value="203">NOWGONG COLLEGE</option>
-<option value="33">PONDICHERRY UNIVERSITY</option>
-<option value="193">PRESIDENCY UNIVERSITY</option>
-<option value="34">RAJIV GANDHI UNIVERSITY</option>
-<option value="191">RAM KRISHNA DHARMARTH FOUNDATION (RKDF) UNIVERSITY</option>
-<option value="108">Ramakrishna Mission Vivekananda Educational and Research Institute</option>
-<option value="194">RANCHI UNIVERSITY</option>
-<option value="83">RNB GLOBAL UNIVERSITY</option>
-<option value="221">Sai Nath University</option>
-<option value="128">SANGAM UNIVERSITY</option>
-<option value="127">SANSKRITI UNIVERSITY</option>
-<option value="217">Sarala Birla University</option>
-<option value="75">SARDAR PATEL UNIVERSITY OF POLICE SECURITY AND CRIMINAL JUSTICE</option>
-<option value="134">SHARDA UNIVERSITY</option>
-<option value="77">SHOBHIT UNIVERSITY</option>
-<option value="104">Shoolini University</option>
-<option value="165">SHRI KHUSHAL DAS UNIVERSITY, HANUMANGARH</option>
-<option value="45">SHRI LAL BAHADUR SHASTRI NATIONAL SANSKRIT UNIVERSITY</option>
-<option value="91">SHRI MATA VAISHNO DEVI UNIVERSITY</option>
-<option value="147">Shri Ramswaroop Memorial University</option>
-<option value="222">SHYAM UNIVERSITY, DAUSA, RAJASTHAN</option>
-<option value="205">SIDO KANHU MURMU UNIVERSITY, DUMKA</option>
-<option value="119">Sikkim Professional University</option>
-<option value="35">SIKKIM UNIVERSITY</option>
-<option value="152">Somaiya Vidyavihar University</option>
-<option value="82">SRM UNIVERSITY</option>
-<option value="118">Suresh Gyan Vihar University Jaipur</option>
-<option value="158">Sushant University</option>
-<option value="218">Swami Vivekanand Subharti University</option>
-<option value="150">Swami Vivekananda Yoga Anusandhana Samsthana</option>
-<option value="58">TATA INSTITUTE OF SOCIAL SCIENCES (TISS)</option>
-<option value="68">TEERTHANKER MAHAVEER UNIVERSITY</option>
-<option value="36">TEZPUR UNIVERSITY</option>
-<option value="37">THE ENGLISH AND FOREIGN LANGUAGES UNIVERSITY</option>
-<option value="67">THE GANDHIGRAM RURAL INSTITUTE (DTBU)</option>
-<option value="142">The ICFAI University, Jaipur</option>
-<option value="148">THE ICFAI UNIVERSITY, SIKKIM</option>
-<option value="38">TRIPURA UNIVERSITY</option>
-<option value="143">UNITED UNIVERSITY, PRAYAGRAJ</option>
-<option value="39">UNIVERSITY OF ALLAHABAD</option>
-<option value="40">UNIVERSITY OF DELHI</option>
-<option value="145">UNIVERSITY OF ENGINEERING AND TECHNOLOY ROORKEE</option>
-<option value="41">UNIVERSITY OF HYDERABAD</option>
-<option value="122">UNIVERSITY OF JAMMU</option>
-<option value="167">UNIVERSITY OF KASHMIR</option>
-<option value="133">UPES - DEHRADUN</option>
-<option value="132">USHA MARTIN UNIVERSITY</option>
-<option value="168">Uttaranchal University</option>
-<option value="87">VIKRAM UNIVERSITY</option>
-<option value="169">Vinayaka Mission's Research Foundation</option>
-<option value="171">Vinoba Bhave University</option>
-<option value="42">VISVA-BHARATI UNIVERSITY</option>
-<option value="105">Vivekananda Global University</option>
-<option value="198">WORLD UNIVERSITY OF DESIGN</option>
-<option value="206">YBN UNIVERSITY</option>
-<option value="154">Yenepoya University</option>
-</select>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <header class="bg-blue-900 text-white py-8 text-center shadow-md">
+    <h1 class="text-4xl font-bold">Atul Prakash</h1>
+    <p class="text-lg mt-2">Final Year MCA Student | Developer | Researcher</p>
+  </header>
+
+  <nav class="bg-white shadow-md py-3 sticky top-0 z-10">
+    <div class="flex justify-center space-x-6 text-blue-800 font-medium">
+      <a href="#about" class="hover:text-blue-500">About</a>
+      <a href="#academics" class="hover:text-blue-500">Academics</a>
+      <a href="#projects" class="hover:text-blue-500">Projects</a>
+      <a href="#research" class="hover:text-blue-500">Research</a>
+      <a href="#contact" class="hover:text-blue-500">Contact</a>
+    </div>
+  </nav>
+
+  <main class="max-w-4xl mx-auto px-4 py-10 space-y-16">
+    <!-- About -->
+    <section id="about">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">About Me</h2>
+      <p class="text-lg leading-relaxed">
+        I’m a software developer and researcher passionate about educational systems, recommender systems, and full-stack development.
+        I love building platforms that make learning smarter, faster, and fairer.
+      </p>
+    </section>
+
+    <!-- Academics -->
+    <section id="academics">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">Academic Excellence</h2>
+      <p class="text-lg leading-relaxed">
+        Currently pursuing a <strong>2-year MCA</strong> at <strong>Tezpur University</strong>.<br/>
+        <span class="block mt-2">🧠 <strong>Semester 1:</strong> 8.95 CGPA (Batch Topper)</span>
+        <span class="block">📈 <strong>Semester 2:</strong> 9.73 CGPA (Maintained Topper Position)</span>
+        <span class="block">🎯 <strong>Current Average:</strong> 9.35 CGPA</span>
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">Projects</h2>
+      <ul class="list-disc pl-6 space-y-2 text-lg">
+        <li><strong>Student Monitoring System:</strong> Multi-tenant platform for universities to manage students, mentors, and dynamic profiles. Built with Django.</li>
+        <li><strong>Smart Quiz App:</strong> Quiz generator with filtering based on exams, subjects, topics, and time constraints.</li>
+        <li><strong>Flexible Profile Builder:</strong> Dynamic user profiles supporting various input types (text/image/audio).</li>
+      </ul>
+    </section>
+
+    <!-- Research -->
+    <section id="research">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">Research</h2>
+      <p class="text-lg leading-relaxed">
+        Preparing a case study paper for the <strong>BEYOND 2025 Workshop at RecSys 2025</strong>, exploring personalization techniques in educational technologies, especially in adaptive quiz systems and student performance monitoring.
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2 class="text-2xl font-bold text-blue-800 mb-4">Contact</h2>
+      <p class="text-lg">📧 Email: <a href="mailto:berealatul@gmail.com" class="text-blue-600 hover:underline">berealatul@gmail.com</a></p>
+      <div class="mt-4 space-y-2 text-lg">
+        <p>💻 GitHub: <a href="https://github.com/berealatul" target="_blank" class="text-blue-600 hover:underline">github.com/berealatul</a></p>
+        <p>🔗 LinkedIn: <a href="https://linkedin.com/in/berealatul" target="_blank" class="text-blue-600 hover:underline">linkedin.com/in/berealatul</a></p>
+        <p>🧠 LeetCode: <a href="https://leetcode.com/berealatul" target="_blank" class="text-blue-600 hover:underline">leetcode.com/berealatul</a></p>
+        <p>🌐 X/Twitter: <a href="https://twitter.com/berealatul" target="_blank" class="text-blue-600 hover:underline">twitter.com/berealatul</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-blue-900 text-white text-center py-4 mt-10">
+    <p>&copy; 2025 Atul Prakash. All rights reserved.</p>
+  </footer>
 </body>
 </html>
